@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Programming from '$lib/icons/programming.svelte';
+	import BG from '$lib/icons/bg.svg'
 </script>
-
-<main>
+<main class="bg-[#333]">
 	<navbar class="w-full bg-slate-800 text-white text-lg flex items-center justify-between p-8">
 		<div class="flex gap-6">
 			<a href="/">About</a>
@@ -15,16 +15,29 @@
 			<a href="/">Linkedin</a>
 		</div>
 	</navbar>
-	<div class="flex flex-col items-center gap-20">
-		<section>
+	<div class="flex flex-col items-center gap-y-20">
+		<section class="h-screen mt-32">
 			<div class="">
-				<h3 class="text-6xl">Meet Isak Friis-Jespersen</h3>
-				<h5 class="text-4xl bg-slate-500 w-full flex justify-end">a software engineer</h5>
+				<h3 class="text-5xl text-center">Meet Isak Friis-Jespersen</h3>
+				<h5 class="text-3xl w-full flex justify-end">a software engineer</h5>
 			</div>
-			<Programming className="h-96"/>
+			<Programming className="h-96" />
 		</section>
-		<section>Experience</section>
-		<section>IT-knowledge</section>
+		<section class="bg-[url('/public/bg.svg')] z-10 bg-cover w-screen h-screen">
+			<div class="text-5xl">About</div>
+		</section>
+		<section>
+			<h3 class="text-5xl">@ Experience @</h3>
+			<div>
+				<h5 class="text-2xl">Booli</h5>
+			</div>
+			<div>
+				<h5 class="text-2xl">Lime-technologies</h5>
+			</div>
+		</section>
+		<section>
+			<h5 class="text-5xl">+ Skills +</h5>
+		</section>
 	</div>
 </main>
 

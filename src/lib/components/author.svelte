@@ -37,4 +37,4 @@
 		>|</span
 	>
 </h5>
-<Programming className="h-96" />
+<Programming className="max-h-96" />

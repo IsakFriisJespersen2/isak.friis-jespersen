@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Author from '$lib/components/author.svelte'
+	import Author from '$lib/components/author.svelte';
+	import About from '$lib/components/about.svelte';
 	import { flip } from 'svelte/animate';
 	import { quintOut } from 'svelte/easing';
 	import BG from '$lib/icons/bg.svg';
@@ -18,12 +19,12 @@
 			<a href="/">Linkedin</a>
 		</div>
 	</navbar>
-	<div class="flex flex-col items-center gap-y-20">
-		<section class="h-screen mt-32">
+	<div class="flex flex-col items-center">
+		<section class="h-screen -mb-40 pt-32">
 			<Author />
 		</section>
-		<section class="bg-[url('/public/bg.svg')] z-10 bg-cover w-screen h-screen">
-			<div class="text-5xl">About</div>
+		<section class="h-screen w-full">
+			<About />
 		</section>
 		<section>
 			<h3 class="text-5xl">@ Experience @</h3>

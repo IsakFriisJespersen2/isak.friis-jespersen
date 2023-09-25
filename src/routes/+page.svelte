@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Author from '$lib/components/author.svelte';
 	import About from '$lib/components/about.svelte';
-	import { flip } from 'svelte/animate';
-	import { quintOut } from 'svelte/easing';
-	import BG from '$lib/icons/bg.svg';
+	import Card from '$lib/components/card.svelte';
+	import BooliLogo from '$lib/icons/BooliLogo.svelte';
+	import LimeLogo from '$lib/icons/LimeLogo.svelte';
 </script>
 
 <main class="bg text-foreground">
@@ -26,13 +26,21 @@
 		<section class="h-screen w-full">
 			<About />
 		</section>
-		<section>
+		<section class="flex flex-col items-center gap-6">
 			<h3 class="text-5xl">@ Experience @</h3>
-			<div>
-				<h5 class="text-2xl">Booli</h5>
-			</div>
-			<div>
-				<h5 class="text-2xl">Lime-technologies</h5>
+			<div class="flex gap-6">
+				<Card
+					title="Booli Search Technologies AB"
+					description="Search engine for the real estate market in Sweden."
+					Logo={BooliLogo}
+					techStack="NextJs, EmberJs, Django, Pandas, php, Mongodb, SQL, K8S, Docker, Gitlab"
+				/>
+				<Card
+					title="Lime Technologies Sweden AB"
+					description="CRM tailored to your business"
+					Logo={LimeLogo}
+					techStack="StencilJs, Python, Flask, Marshmallow, SQL, Docker, Github Actions, Jenkins"
+				/>
 			</div>
 		</section>
 		<section>

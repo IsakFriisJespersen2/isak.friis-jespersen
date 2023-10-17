@@ -2,8 +2,8 @@
 	import Author from '$lib/components/author.svelte';
 	import About from '$lib/components/about.svelte';
 	import Card from '$lib/components/card.svelte';
-	import BooliLogo from '$lib/icons/BooliLogo.svelte';
-	import LimeLogo from '$lib/icons/LimeLogo.svelte';
+	import BooliLogo from '$lib/logos/Booli.svelte';
+	import LimeLogo from '$lib/logos/Lime.svelte';
 </script>
 
 <main class="bg text-foreground">

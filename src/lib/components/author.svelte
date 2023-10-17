@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Programming from '$lib/icons/programming.svelte';
+	import Programming from '$lib/logos/programming.svelte';
 	let author = '';
 	let title = '';
 	let cursorPosition = 'author';
@@ -37,4 +37,4 @@
 		>|</span
 	>
 </h5>
-<Programming className="max-h-96" />
+<Programming className="h-96" />

@@ -10,12 +10,11 @@
 	import Python from '$lib/logos/Python.svelte';
 	import SQL from '$lib/logos/SQL.svelte';
 	import Typescript from '$lib/logos/Typescript.svelte';
-	// import {Django} from '$lib/logos/index.svelte'
 </script>
 
 <div>
-  <h5 class="text-5xl">+ Skills +</h5>
-  <div class="w-full grid grid-cols-4 gap-4">
+  <h5 class="text-5xl text-center">+ Skills +</h5>
+  <div class="flex flex-wrap justify-around gap-32 max-w-6xl">
     <Django className="w-24 h-24" />
     <Docker className="w-24 h-24" />
     <EmberJs className="w-24 h-24" />

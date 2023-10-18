@@ -1,6 +1,7 @@
 <script lang="ts">
-  export let className: string;
+	export let className: string;
 </script>
+
 <svg viewBox="0 0 130 64" fill="none" xmlns="http://www.w3.org/2000/svg" class={className}>
 	<path d="M123 45.4a5 5 0 100-10 5 5 0 00-5 5 5 5 0 005 5zM123.8 30.5l6.1-29-7.5-1.5-6.2 29 7.6 1.5z" fill="#FF620F" />
 	<path

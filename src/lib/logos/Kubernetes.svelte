@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="722.846" height="701.966"
+<script lang="ts">
+	export let className: string;
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" class={className}
 	><path
 		style="fill:#326ce5;fill-opacity:1;stroke:#fff;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
 		d="M365.313 184.813a46.725 46.342 0 0 0-17.907 4.53l-244.344 116.75a46.725 46.342 0 0 0-25.28 31.438L17.5 599.781a46.725 46.342 0 0 0 6.344 35.532A46.725 46.342 0 0 0 26.5 639l169.125 210.281a46.725 46.342 0 0 0 36.531 17.438l271.219-.063a46.725 46.342 0 0 0 36.531-17.406L708.97 638.937A46.725 46.342 0 0 0 718 599.72l-60.375-262.25a46.725 46.342 0 0 0-25.281-31.438L387.969 189.344a46.725 46.342 0 0 0-22.656-4.531z"

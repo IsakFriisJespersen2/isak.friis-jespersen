@@ -4,6 +4,7 @@
 	import Card from '$lib/components/card.svelte';
 	import BooliLogo from '$lib/logos/Booli.svelte';
 	import LimeLogo from '$lib/logos/Lime.svelte';
+	import Skills from '$lib/components/Skills.svelte';
 </script>
 
 <main class="bg text-foreground">
@@ -45,6 +46,7 @@
 		</section>
 		<section>
 			<h5 class="text-5xl">+ Skills +</h5>
+			<Skills />
 		</section>
 	</div>
 </main>

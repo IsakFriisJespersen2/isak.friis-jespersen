@@ -1,9 +1,8 @@
-<svg
-	version="1.0"
-	width="122.76"
-	height="134.668"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns="http://www.w3.org/2000/svg"
+<script lang="ts">
+	export let className: string;
+</script>
+
+<svg version="1.0" class={className} xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 	><defs
 		><linearGradient id="c"
 			><stop style="stop-color:#b8b8b8;stop-opacity:.49803922" offset="0" /><stop

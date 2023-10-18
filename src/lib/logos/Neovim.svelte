@@ -1,4 +1,8 @@
-<svg width="601" height="736" xmlns="http://www.w3.org/2000/svg"
+<script lang="ts">
+	export let className: string;
+</script>
+
+<svg class={className} xmlns="http://www.w3.org/2000/svg"
 	><g fill="none" fill-rule="evenodd"
 		><path d="M1 159.437 27.166 133 156 324.998V731L1 576.202V159.437Z" fill="#3C92D2" /><path
 			d="M599.94 160.914 443 3v404.297L574.295 605 601 575.971l-1.06-415.057ZM155.986 4 559 619.19 446.225 732 43 118.172 155.986 4Z"

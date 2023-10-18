@@ -27,14 +27,16 @@
 	start();
 </script>
 
-<h3 class="text-5xl text-center">
-	{author}<span class="animate-pulse font-bold text-orange-600 text-5xl {cursorPosition !== 'author' && 'hidden'}"
-		>|</span
-	>
-</h3>
-<h5 class="text-3xl w-full flex justify-end">
-	&nbsp;{title}<span class="animate-pulse font-bold text-orange-600 text-3xl {cursorPosition !== 'title' && 'hidden'}"
-		>|</span
-	>
-</h5>
-<Programming className="h-96" />
+<div class="">
+	<h3 class="text-5xl">
+		{author}<span class="animate-pulse font-bold text-orange-600 text-5xl {cursorPosition !== 'author' && 'hidden'}"
+			>|</span
+		>
+	</h3>
+	<h5 class="text-3xl ml-48">
+		&nbsp;{title}<span class="animate-pulse font-bold text-orange-600 text-3xl {cursorPosition !== 'title' && 'hidden'}"
+			>|</span
+		>
+	</h5>
+	<Programming className="h-96" />
+</div>

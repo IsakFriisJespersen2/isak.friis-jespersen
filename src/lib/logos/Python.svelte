@@ -2,63 +2,23 @@
 	export let className: string;
 </script>
 
-<svg version="1.0" class={className} xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+<svg xmlns="http://www.w3.org/2000/svg" class={className} viewBox="0 0 32 32"
 	><defs
-		><linearGradient id="c"
-			><stop style="stop-color:#b8b8b8;stop-opacity:.49803922" offset="0" /><stop
-				style="stop-color:#7f7f7f;stop-opacity:0"
-				offset="1"
-			/></linearGradient
-		><linearGradient id="a"
-			><stop style="stop-color:#ffd43b;stop-opacity:1" offset="0" /><stop
-				style="stop-color:#ffe873;stop-opacity:1"
-				offset="1"
-			/></linearGradient
-		><linearGradient id="b"
-			><stop style="stop-color:#5a9fd4;stop-opacity:1" offset="0" /><stop
-				style="stop-color:#306998;stop-opacity:1"
-				offset="1"
-			/></linearGradient
-		><linearGradient
-			xlink:href="#a"
-			id="e"
-			gradientUnits="userSpaceOnUse"
-			gradientTransform="matrix(.56254 0 0 .56797 -14.991 -11.702)"
-			x1="150.961"
-			y1="192.352"
-			x2="112.031"
-			y2="137.273"
-		/><linearGradient
-			xlink:href="#b"
-			id="d"
-			gradientUnits="userSpaceOnUse"
-			gradientTransform="matrix(.56254 0 0 .56797 -14.991 -11.702)"
-			x1="26.649"
-			y1="20.604"
-			x2="135.665"
-			y2="114.398"
-		/><radialGradient
-			xlink:href="#c"
-			id="f"
-			gradientUnits="userSpaceOnUse"
-			gradientTransform="matrix(0 -.23995 1.05467 0 -83.7 142.462)"
-			cx="61.519"
-			cy="132.286"
-			fx="61.519"
-			fy="132.286"
-			r="29.037"
-		/></defs
-	><path
-		style="fill:url(#d);fill-opacity:1"
-		d="M54.919 0c-4.584.022-8.961.413-12.813 1.095C30.76 3.099 28.7 7.295 28.7 15.032v10.219h26.813v3.406H18.638c-7.793 0-14.616 4.684-16.75 13.594-2.462 10.213-2.571 16.586 0 27.25 1.905 7.938 6.457 13.594 14.25 13.594h9.218v-12.25c0-8.85 7.657-16.657 16.75-16.657h26.782c7.454 0 13.406-6.138 13.406-13.625v-25.53c0-7.267-6.13-12.726-13.406-13.938C64.282.328 59.502-.02 54.918 0Zm-14.5 8.22c2.77 0 5.031 2.298 5.031 5.125 0 2.816-2.262 5.093-5.031 5.093-2.78 0-5.031-2.277-5.031-5.093 0-2.827 2.251-5.125 5.03-5.125z"
-	/><path
-		style="fill:url(#e);fill-opacity:1"
-		d="M85.638 28.657v11.906c0 9.231-7.826 17-16.75 17H42.106c-7.336 0-13.406 6.279-13.406 13.625V96.72c0 7.266 6.319 11.54 13.406 13.625 8.488 2.495 16.627 2.946 26.782 0 6.75-1.955 13.406-5.888 13.406-13.625V86.5H55.513v-3.405H95.7c7.793 0 10.696-5.436 13.406-13.594 2.8-8.399 2.68-16.476 0-27.25-1.925-7.758-5.604-13.594-13.406-13.594zM70.575 93.313c2.78 0 5.031 2.278 5.031 5.094 0 2.827-2.251 5.125-5.031 5.125-2.77 0-5.031-2.298-5.031-5.125 0-2.816 2.261-5.094 5.031-5.094z"
-	/><ellipse
-		style="opacity:.44382;fill:url(#f);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:15.4174;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-		cx="55.817"
-		cy="127.701"
-		rx="35.931"
-		ry="6.967"
-	/></svg
+		><linearGradient id="A" x1="811.527" y1="574.895" x2="665.255" y2="573.732" gradientUnits="userSpaceOnUse"
+			><stop offset="0" stop-color="#366a96" /><stop offset="1" stop-color="#3679b0" /></linearGradient
+		><linearGradient id="B" x1="862.824" y1="642.176" x2="573.276" y2="642.176" gradientUnits="userSpaceOnUse"
+			><stop offset="0" stop-color="#ffc836" /><stop offset="1" stop-color="#ffe873" /></linearGradient
+		></defs
+	><g transform="matrix(.1617 0 0 .158089 -107.53764 -81.66187)"
+		><path
+			d="M716.255 544.487c0-13.623 3.653-21.034 23.822-24.563 13.693-2.4 31.25-2.7 47.627 0 12.935 2.135 23.822 11.77 23.822 24.563v44.945c0 13.182-10.57 23.98-23.822 23.98h-47.627c-16.164 0-29.787 13.782-29.787 29.363v21.564h-16.376c-13.852 0-21.917-9.988-25.305-23.964-4.57-18.776-4.376-29.963 0-47.945 3.794-15.687 15.917-23.964 29.77-23.964h65.52v-6h-47.645v-17.98z"
+			fill="url(#A)"
+		/><path
+			d="M811.527 688.32c0 13.623-11.823 20.523-23.822 23.964-18.052 5.188-32.54 4.394-47.627 0-12.6-3.67-23.822-11.17-23.822-23.964v-44.945c0-12.935 10.782-23.98 23.822-23.98h47.627c15.864 0 29.787-13.71 29.787-29.963v-20.964h17.858c13.87 0 20.4 10.305 23.822 23.964 4.764 18.97 4.976 33.157 0 47.945-4.817 14.364-9.97 23.964-23.822 23.964H763.9v6h47.627v17.98z"
+			fill="url(#B)"
+		/><path
+			d="M728.166 541.505c0-4.976 3.988-9 8.93-9 4.923 0 8.93 4.023 8.93 9 0 4.96-4.006 8.982-8.93 8.982-4.94 0-8.93-4.023-8.93-8.982zm53.59 149.798c0-4.96 4.006-8.982 8.93-8.982 4.94 0 8.93 4.023 8.93 8.982 0 4.976-3.988 9-8.93 9-4.923 0-8.93-4.023-8.93-9z"
+			fill="#fff"
+		/></g
+	></svg
 >

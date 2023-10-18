@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Card from '$lib/components/card.svelte';
+	import Card from '$lib/components/Card.svelte';
 	import BooliLogo from '$lib/logos/Booli.svelte';
 	import LimeLogo from '$lib/logos/Lime.svelte';
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Programming from '$lib/logos/programming.svelte';
+	import Programming from '$lib/logos/Programming.svelte';
 	let author = '';
 	let title = '';
 	let cursorPosition = 'author';

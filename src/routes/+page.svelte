@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Navbar from '$lib/components/Navbar.svelte';
-	import Author from '$lib/components/author.svelte';
-	import About from '$lib/components/about.svelte';
+	import Author from '$lib/components/Author.svelte';
+	import About from '$lib/components/About.svelte';
 	import Skills from '$lib/components/Skills.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 </script>

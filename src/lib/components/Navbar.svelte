@@ -1,11 +1,11 @@
-<navbar class="w-full bg-primary text-lg flex items-center justify-between p-8">
-	<div class="flex gap-6">
+<navbar class="w-full bg-slate-800 text-lg flex items-center justify-between p-8">
+	<div class="flex space-x-6 text-cyan-50">
 		<a href="/">About</a>
 		<a href="/">Projects</a>
 		<a href="/">Skills</a>
 		<a href="/">Contact</a>
 	</div>
-	<div class="flex gap-6">
+	<div class="flex gap-6 text-cyan-50">
 		<a href="/">Github</a>
 		<a href="/">Linkedin</a>
 	</div>

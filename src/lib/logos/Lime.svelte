@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LimeLogo from '$lib/components/LimeLogo.webp'
+	import LimeLogo from '$lib/logos/LimeLogo.webp'
 
 	export let className: string;
 </script>

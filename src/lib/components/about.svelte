@@ -1,5 +1,5 @@
 <script lang="ts">
-	import profile from '$lib/components/profile.png';
+	import profile from '$lib/logos/profile.png';
 </script>
 
 <div class="flex flex-col items-center gap-6">

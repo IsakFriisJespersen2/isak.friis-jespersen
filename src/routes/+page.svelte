@@ -6,7 +6,7 @@
 	import Experience from '$lib/components/Experience.svelte';
 </script>
 
-<main class="bg text-foreground">
+<main class="bg-[#111d21] text-cyan-50">
 	<Navbar />
 	<div class="w-full flex flex-col items-center gap-y-60">
 		<section class="h-5/6 mt-20">

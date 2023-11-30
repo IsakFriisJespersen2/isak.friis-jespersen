@@ -14,7 +14,7 @@
 
 <div>
   <h5 class="text-5xl text-center">+ Skills +</h5>
-  <div class="flex flex-wrap justify-around gap-32 max-w-6xl">
+  <div class="flex flex-wrap justify-around gap-32 max-w-6xl p-36">
     <Django className="w-24 h-24" />
     <Docker className="w-24 h-24" />
     <EmberJs className="w-24 h-24" />

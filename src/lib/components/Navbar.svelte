@@ -1,4 +1,4 @@
-<navbar class="w-full bg-slate-800 text-lg flex items-center justify-between p-8">
+<navbar class="w-full bg-[#18262b] text-lg flex items-center justify-between p-8">
 	<div class="flex space-x-6 text-cyan-50">
 		<a href="/">About</a>
 		<a href="/">Projects</a>

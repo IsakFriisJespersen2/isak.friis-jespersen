@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family: 'ka1';
-  src: url('/static/ka1.ttf') format('ttf');
+:root {
+  --font-sbab: 'font-sbab';
+}
+@font-face {
+	font-family: 'font-sbab';
+	src: url('/static/public/fonts/SBAB-Display.woff') format('woff'),
+		url('/static/public/fonts/SBAB-Bold.ttf') format('woff'),
+		url('/static/public/fonts/SBAB-Regular.woff') format('woff');
+}
+
+body {
+	font-family: var(--font-sbab);
 }

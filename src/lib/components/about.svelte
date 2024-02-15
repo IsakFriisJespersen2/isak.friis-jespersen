@@ -13,7 +13,7 @@
 				Welcome to my site! I am a software developer based in Stockholm, Sweden, who is passionate about modern
 				technologies and creative ways of solving problems
 			</div>
-			<div class="text-3xl text-orange-600">. . . .</div>
+			<div class="text-3xl text-orange-600">. . .</div>
 			<div>
 				In addition to fullstack web development I love experimenting with, k8s technologies hosting stuff from my
 				raspberry pi.

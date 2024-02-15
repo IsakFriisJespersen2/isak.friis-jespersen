@@ -11,19 +11,19 @@
 		<section class="h-5/6 mt-16">
 			<Author />
 		</section>
-		<div class="w-full border border-dashed"/>
+		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
 		<section class="h-5/6 w-full">
 			<About />
 		</section>
-		<div class="w-full border border-dashed"/>
+		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
 		<section>
 			<Experience />
 		</section>
-		<div class="w-full border border-dashed"/>
+		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
 		<section>
 			<Skills />
 		</section>
-		<div class="w-full border border-dashed"/>
+		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
 		<section>
 			<Contact />
 		</section>

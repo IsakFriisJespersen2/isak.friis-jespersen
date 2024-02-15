@@ -28,7 +28,7 @@ export default {
 			},
 			boxShadow: {
 				error: '0 0 0 2px rgba(221, 51, 34, 1)',
-				focus: '0 0 0 2px rgba(17, 85, 238, 1)',
+				focus: '0 0 0 2px rgba(17, 85, 238, 1)'
 			},
 			colors: {
 				primary: '#18262B',
@@ -39,19 +39,13 @@ export default {
 				senary: '#ee9b00'
 			},
 			screens: {
-				desktop: { max: '1536px' },
-				// => @media (min-width: 1536px) { ... }
-				laptop: { max: '1280px' },
-				// => @media (min-width: 1280) { ... }
-				'tablet-lg': { max: '1024px' },
-				// => @media (min-width: 1024px) { ... }
-				tablet: { max: '768px' },
-				// => @media (min-width: 640px) { ... }
-				mobile: { max: '640px' },
-				// => @media (min-width: 350px { ... }
-
+				mobil: { min: '640px' },
+				tablet: { min: '768px' },
+				laptop: { min: '1024px' },
+				desktop: { min: '1280px' },
+				desktopXl: { min: '1536px' }
 			}
-		},
+		}
 	},
 	plugins: []
 };

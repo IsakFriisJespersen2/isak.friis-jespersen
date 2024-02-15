@@ -8,7 +8,7 @@
 <div class="relative w-80 h-96 text-center rounded-md bg-[#18262b] text-[#dddddd]">
 	<div class="flex flex-col gap-y-6 p-4">
 		<div class="self-center">
-			<svelte:component this={Logo} className="h-20" />
+			<svelte:component this={Logo} className="h-16" />
 		</div>
 		<div class="border-b-4 border-dotted border-blue-900" />
 		<div class="text-lg">{description}</div>

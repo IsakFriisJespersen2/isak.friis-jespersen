@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Author from '$lib/components/Author.svelte';
 	import About from '$lib/components/About.svelte';
-	import Skills from '$lib/components/Skills.svelte';
+	import Skills from '$lib/components/Skills/Skills.svelte';
 	import Experience from '$lib/components/Experience.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 </script>

@@ -39,7 +39,7 @@ export default {
 				senary: '#ee9b00'
 			},
 			screens: {
-				mobil: { min: '640px' },
+				mobil: { min: '580px' },
 				tablet: { min: '768px' },
 				laptop: { min: '1024px' },
 				desktop: { min: '1280px' },

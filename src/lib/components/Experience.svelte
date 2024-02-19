@@ -8,7 +8,7 @@
 	<h3 class="text-2xl">
 		<span class="text-lg mr-2">@</span>Experience<span class="text-lg ml-2">@</span>
 	</h3>
-	<section class="flex gap-6">
+	<section class="flex flex-wrap gap-6 justify-center">
 		<Card
 			description="Search engine for the real estate market in Sweden."
 			Logo={BooliLogo}

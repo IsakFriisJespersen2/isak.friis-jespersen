@@ -7,9 +7,9 @@
 }
 @font-face {
 	font-family: 'font-sbab';
-	src: url('/static/public/fonts/SBAB-Display.woff') format('woff'),
-		url('/static/public/fonts/SBAB-Bold.ttf') format('woff'),
-		url('/static/public/fonts/SBAB-Regular.woff') format('woff');
+	src: url('/public/fonts/SBAB-Display.woff') format('woff'),
+		url('/public/fonts/SBAB-Bold.ttf') format('woff'),
+		url('/public/fonts/SBAB-Regular.woff') format('woff');
 }
 
 body {

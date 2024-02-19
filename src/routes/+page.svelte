@@ -24,7 +24,7 @@
 			<Skills />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section>
+		<section class="w-full">
 			<Contact />
 		</section>
 	</div>

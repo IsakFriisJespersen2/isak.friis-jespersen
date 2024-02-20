@@ -16,7 +16,7 @@
 			<About />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section>
+		<section class="mx-8">
 			<Experience />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
@@ -27,5 +27,10 @@
 		<section class="w-full">
 			<Contact />
 		</section>
+	</div>
+	<div>
+		<footer class="text-center text-md pb-8">
+			<p>© 2024 Isak Friis-Jespersen - Coded by IFJ </p>
+		</footer>
 	</div>
 </main>

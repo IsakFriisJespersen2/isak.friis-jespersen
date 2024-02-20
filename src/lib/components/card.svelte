@@ -11,8 +11,8 @@
 			<svelte:component this={Logo} className="h-16" />
 		</div>
 		<div class="border-b-4 border-dotted border-blue-900" />
-		<div class="text-lg">{description}</div>
-		<div class="text-lg">
+		<div class="text-md">{description}</div>
+		<div class="text-md">
 			<p><span class="text-orange-700 mr-2">Technologies:</span>{techStack}</p>
 		</div>
 	</div>

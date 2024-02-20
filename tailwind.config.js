@@ -26,10 +26,6 @@ export default {
 				display: 600,
 				bold: 700
 			},
-			boxShadow: {
-				error: '0 0 0 2px rgba(221, 51, 34, 1)',
-				focus: '0 0 0 2px rgba(17, 85, 238, 1)'
-			},
 			colors: {
 				primary: '#18262B',
 				secondary: '#005f73',

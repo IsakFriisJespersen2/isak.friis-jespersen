@@ -5,7 +5,7 @@
 	export let techStack: string;
 </script>
 
-<div class="relative w-80 h-96 text-center rounded-md bg-[#18262b] text-[#dddddd]">
+<div class="relative w-80 h-96 text-center rounded-md bg-[#18262b] text-[#dddddd] hover:scale-105">
 	<div class="flex flex-col gap-y-6 p-4">
 		<div class="self-center">
 			<svelte:component this={Logo} className="h-16" />

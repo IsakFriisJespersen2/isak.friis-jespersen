@@ -11,6 +11,7 @@
 	import Python from '$lib/logos/Python.svelte';
 	import SQL from '$lib/logos/SQL.svelte';
 	import Typescript from '$lib/logos/Typescript.svelte';
+	import ElasticSearch from '$lib/logos/ElasticSearch.svelte';
 </script>
 
 <div>
@@ -21,6 +22,9 @@
 		</Wrapper>
 		<Wrapper>
 			<Docker />
+		</Wrapper>
+		<Wrapper>
+			<ElasticSearch />
 		</Wrapper>
 		<Wrapper>
 			<EmberJs />

@@ -14,40 +14,40 @@
 </script>
 
 <div>
-	<h5 class="text-5xl text-center">+ Skills +</h5>
+	<h5 class="text-3xl text-center">+ Skills +</h5>
 	<div class="flex flex-wrap justify-around tablet:gap-32 gap-12 max-w-6xl tablet:p-36 p-12 rounded-full">
-		<!-- <Wrapper>
+		<Wrapper>
 			<Django/>
-		</Wrapper> -->
-		<Wrapper>
-			<Docker/>
 		</Wrapper>
 		<Wrapper>
-			<EmberJs/>
+			<Docker />
 		</Wrapper>
 		<Wrapper>
-			<Git/>
+			<EmberJs />
 		</Wrapper>
 		<Wrapper>
-			<Kubernetes/>
-		</Wrapper>
-		<!-- <Wrapper>
-			<Neovim/>
-		</Wrapper> -->
-		<Wrapper>
-			<NextJs/>
+			<Git />
 		</Wrapper>
 		<Wrapper>
-			<Node/>
+			<Kubernetes />
 		</Wrapper>
 		<Wrapper>
-			<Python/>
+			<Neovim />
 		</Wrapper>
 		<Wrapper>
-			<SQL/>
+			<NextJs />
 		</Wrapper>
-		<!-- <Wrapper>
-			<Typescript/>
-		</Wrapper> -->
+		<Wrapper>
+			<Node />
+		</Wrapper>
+		<Wrapper>
+			<Python />
+		</Wrapper>
+		<Wrapper>
+			<SQL />
+		</Wrapper>
+		<Wrapper>
+			<Typescript />
+		</Wrapper>
 	</div>
 </div>

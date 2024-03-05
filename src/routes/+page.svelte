@@ -28,6 +28,7 @@
 			<Contact />
 		</section>
 	</div>
+
 	<div>
 		<footer class="text-center text-md pb-8">
 			<p>© 2024 Isak Friis-Jespersen - Coded by IFJ </p>

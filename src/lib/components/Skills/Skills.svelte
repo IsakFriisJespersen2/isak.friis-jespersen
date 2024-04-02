@@ -1,4 +1,5 @@
 <script lang="ts">
+	import SectionTitle from '../SectionTitle.svelte';
 	import Wrapper from '$lib/components/Skills/Wrapper.svelte';
 	import Django from '$lib/logos/Django.svelte';
 	import Docker from '$lib/logos/Docker.svelte';
@@ -12,16 +13,24 @@
 	import SQL from '$lib/logos/SQL.svelte';
 	import Typescript from '$lib/logos/Typescript.svelte';
 	import ElasticSearch from '$lib/logos/ElasticSearch.svelte';
+	import Tailwind from '$lib/logos/Tailwind.svelte';
+	import React from '$lib/logos/React.svelte';
 </script>
 
-<div>
-	<h5 class="text-3xl text-center">+ Skills +</h5>
-	<div class="flex flex-wrap justify-around tablet:gap-32 gap-12 max-w-6xl tablet:p-36 p-12 rounded-full">
+<div class="flex flex-col items-center">
+	<SectionTitle title="Skills" />
+	<div class="flex flex-wrap justify-around tablet:gap-32 gap-12 max-w-7xl tablet:p-36 p-12 rounded-full">
 		<Wrapper>
-			<Django/>
+			<Tailwind />
 		</Wrapper>
 		<Wrapper>
 			<Docker />
+		</Wrapper>
+		<Wrapper>
+			<React />
+		</Wrapper>
+		<Wrapper>
+			<Django />
 		</Wrapper>
 		<Wrapper>
 			<ElasticSearch />

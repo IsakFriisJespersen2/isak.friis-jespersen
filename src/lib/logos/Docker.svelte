@@ -2,11 +2,7 @@
 	export let className: string = '';
 </script>
 
-<svg
-	xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	class={className}
-	viewBox="0 0 32 32"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class={className} viewBox="0 0 32 32"
 	><defs
 		><clipPath id="a"
 			><path

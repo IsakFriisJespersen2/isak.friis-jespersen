@@ -2,10 +2,11 @@
 	import Card from '$lib/components/Card.svelte';
 	import BooliLogo from '$lib/logos/Booli.svelte';
 	import LimeLogo from '$lib/logos/Lime.svelte';
+	import SectionTitle from './SectionTitle.svelte';
 </script>
 
 <section class="flex flex-col items-center gap-6">
-	<h3 class="text-3xl" >+ Experience +</h3>
+	<SectionTitle title="Experience" />
 	<section class="flex flex-wrap gap-6 justify-center">
 		<Card
 			description="Search engine for the real estate market in Sweden."

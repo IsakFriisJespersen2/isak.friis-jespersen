@@ -19,14 +19,16 @@
 				<Menu role="button" class="tablet:hidden border rounded-md w-8 h-8 p-1" />
 			</button>
 			<div
-				class="flex flex-col tablet:flex-row space-y-2 tablet:space-x-4 tablet:space-y-0  tablet:data-[hidden=false]:flex data-[hidden=false]:hidden"
+				class="flex flex-col tablet:flex-row space-y-2 tablet:space-x-4 tablet:space-y-0 tablet:data-[hidden=false]:flex data-[hidden=false]:hidden"
 				data-hidden={isOpen}
 			>
-				<a href="https://github.com/IsakFriisJespersen2" class="flex items-center"
+				<a href="https://github.com/IsakFriisJespersen2" target="”_blank”" class="flex items-center"
 					><Github className="w-5 h-5 fill-orange-600 mr-1" />Github</a
 				>
-				<a href="https://www.linkedin.com/in/isak-friis-jespersen-9abb4915a/" class="flex items-center"
-					><LinkedIn className="w-4 h-4 fill-orange-600 mr-1" />Linkedin</a
+				<a
+					href="https://www.linkedin.com/in/isak-friis-jespersen-9abb4915a/"
+					target="”_blank”"
+					class="flex items-center"><LinkedIn className="w-4 h-4 fill-orange-600 mr-1" />Linkedin</a
 				>
 			</div>
 		</div>

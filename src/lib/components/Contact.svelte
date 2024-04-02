@@ -1,4 +1,5 @@
 <script lang="ts">
+	import SectionTitle from "./SectionTitle.svelte";
 	const handleSubmit = (e: Event) => {
 		console.log(e.target);
 		console.log('Form submitted');
@@ -6,7 +7,7 @@
 </script>
 
 <section class="flex flex-col items-center space-y-4">
-	<h1 class="text-4xl">+ Contact +</h1>
+	<SectionTitle title="Contact" />
 	<h2 class="text-xl">Let get social</h2>
 
 	<div class="flex gap-2">

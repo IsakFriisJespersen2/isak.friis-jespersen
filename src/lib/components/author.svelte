@@ -28,7 +28,7 @@
 </script>
 
 <div class="w-full flex flex-col items-center">
-	<h3 class="desktop:text-5xl text-3xl">
+	<h3 class="desktop:text-6xl tablet:text-4xl text-3xl">
 		{author}<span class="animate-pulse font-bold text-orange-600 mr-1 {cursorPosition !== 'author' && 'hidden'}">|</span
 		>
 	</h3>

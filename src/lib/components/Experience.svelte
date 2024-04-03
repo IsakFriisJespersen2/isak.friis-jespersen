@@ -6,31 +6,36 @@
 			date: '2020 -',
 			company: 'Booli Search Technologies AB',
 			subject: 'Software Engineer',
-			description: 'Blää blää'
+			description:
+				'At Booli Search Technologies AB, Software Engineers work on innovative projects, contributing to cutting-edge products. With ownership over their work and ongoing learning opportunities, Booli fosters personal growth in tech.'
 		},
 		{
 			date: '2018 - 2020',
 			company: 'Lime Technologies',
 			subject: 'Software Engineer',
-			description: 'Blää blää'
+			description:
+				'At Booli Search Technologies AB, Software Engineers work on innovative projects, contributing to cutting-edge products. With ownership over their work and ongoing learning opportunities, Booli fosters personal growth in tech.'
 		},
 		{
 			date: '2018 - 2020',
 			company: 'Uppsala Universitet',
 			subject: 'Mathematics',
-			description: 'Blää blää'
+			description:
+				'At Booli Search Technologies AB, Software Engineers work on innovative projects, contributing to cutting-edge products. With ownership over their work and ongoing learning opportunities, Booli fosters personal growth in tech.'
 		},
 		{
 			date: '2018 - 2020',
 			company: 'Monash University',
 			subject: 'Australia Exchange',
-			description: 'Blää blää'
+			description:
+				'At Booli Search Technologies AB, Software Engineers work on innovative projects, contributing to cutting-edge products. With ownership over their work and ongoing learning opportunities, Booli fosters personal growth in tech.'
 		},
 		{
 			date: '2018 - 2020',
 			company: 'Luleå Tekniska Universitet',
 			subject: 'Information science',
-			description: 'Blää blää'
+			description:
+				'At Booli Search Technologies AB, Software Engineers work on innovative projects, contributing to cutting-edge products. With ownership over their work and ongoing learning opportunities, Booli fosters personal growth in tech.'
 		}
 	];
 </script>
@@ -43,7 +48,8 @@
 				<p class="w-32">{date}</p>
 				<div class="space-y-2">
 					<p class="flex gap-2"><span>{company}</span> - <span class="text-gray-400">{subject}</span></p>
-					<p class="text-gray-400">{description}</p>
+					<p class="text-gray-400 max-w-2xl">{description}</p>
+          <div class="text-3xl tablet:text-start text-center text-orange-600">. . .</div>
 				</div>
 			</div>
 		{/each}

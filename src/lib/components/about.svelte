@@ -16,7 +16,7 @@
 			/>
 			<p class="tablet:text-lg">
 				Welcome to my site! I am a software developer based in Stockholm, Sweden, who is passionate about modern
-				technologies and creative ways of solving problems
+				technologies and creative ways of solving problems.
 			</p>
 			<div class="text-3xl text-orange-600">. . .</div>
 			<p class="tablet:text-lg">

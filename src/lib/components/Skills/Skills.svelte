@@ -24,9 +24,6 @@
 			<Tailwind />
 		</Wrapper>
 		<Wrapper>
-			<Docker />
-		</Wrapper>
-		<Wrapper>
 			<React />
 		</Wrapper>
 		<Wrapper>
@@ -40,6 +37,9 @@
 		</Wrapper>
 		<Wrapper>
 			<Git />
+		</Wrapper>
+		<Wrapper>
+			<Docker />
 		</Wrapper>
 		<Wrapper>
 			<Kubernetes />

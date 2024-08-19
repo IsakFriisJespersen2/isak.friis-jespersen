@@ -4,7 +4,7 @@
 	import Skills from '$lib/components/Skills/Skills.svelte';
 	import Projects from '$lib/components/Projects/Projects.svelte';
 	import Experience from '$lib/components/Experience.svelte';
-	import Contact from '$lib/components/Contact.svelte';
+	import Contact from '$lib/components/Contact/index.svelte';
 </script>
 
 <main class="bg-[#111d21] text-cyan-50">

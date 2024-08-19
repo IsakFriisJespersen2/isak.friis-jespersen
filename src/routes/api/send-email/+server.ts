@@ -1,40 +1,43 @@
 import nodemailer from 'nodemailer';
 
-let transporter = nodemailer.createTransport({
-	service: 'gmail', // Use Gmail's service
+const transporter = nodemailer.createTransport({
+	service: 'Gmail',
+	host: 'smtp.gmail.com',
+	port: 465,
+	secure: true,
 	auth: {
-		user: 'isak.friisjespersen@gmail.com', // Your Gmail address
-		pass: 'epky wypi myji cuae' // Your Gmail password or App Password
+		user: process.env.GMAIL_USER,
+		pass: process.env.GMAIL_PASSWORD
 	}
 });
 
-// Set up email data with unicode symbols
-let mailOptions = {
-	from: 'isak.friisjespersen@gmail.com', // Sender address
-	to: 'isak.friisjespersen@gmail.com', // List of receivers
-	subject: 'Hello ✔', // Subject line
-	text: 'Hello world?', // Plain text body
-	html: '<b>Hello world?</b>' // HTML body content
-};
+interface Email {
+	name: string;
+	email: string;
+	message: string;
+}
 
-export async function GET({ request }: { request: Request }) {
-	// const { email, password } = await request.json();
+export async function POST({ request }: { request: Request }) {
+	const body: Email = await request.json();
 
-	// ...
-	// Insert your real logic here
-	// ...
+	let mailOptions = {
+		from: body.email, // Sender address
+		to: process.env.GMAIL_USER, // List of receivers
+		subject: `Contact from Portfolio from ${body.name}`, // Subject line
+		text: body.message // Plain text body
+	};
 
-	// An example of a simple response
-	// Send mail with defined transport object
-	transporter.sendMail(mailOptions, (error, info) => {
-		if (error) {
-			return console.log(error);
-		}
-		console.log('Message sent: %s', info.messageId);
-	});
+	const res = await transporter.sendMail(mailOptions);
+
+	console.log(res);
+
+	if (res.rejected.length > 1) {
+		throw Error('Email could not be sent!');
+	}
+
 	return new Response(
 		JSON.stringify({
-			message: 'Hello world!'
+			message: 'Message sent!'
 		}),
 		{
 			status: 200

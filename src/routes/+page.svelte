@@ -36,7 +36,7 @@
 
 	<div>
 		<footer class="text-center text-md pb-8">
-			<p>© 2024 Isak Friis-Jespersen - Coded by IFJ</p>
+			<p>© {new Date().getFullYear()} Code crafted by IsakFriisJespersen2</p>
 		</footer>
 	</div>
 </main>

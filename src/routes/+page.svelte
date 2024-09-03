@@ -9,27 +9,27 @@
 
 <main class="bg-[#111d21] text-cyan-50">
 	<div class="w-full flex flex-col items-center gap-y-24">
-		<section class="h-5/6 mt-16">
+		<section id="author" class="h-5/6 mt-16">
 			<Author />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section class="h-5/6 w-full">
+		<section id="about" class="h-5/6 w-full">
 			<About />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section class="h-5/6 mx-8">
+		<section id="projects" class="h-5/6 mx-8">
 			<Projects />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section class="h-5/6 mx-8">
+		<section id="experience" class="h-5/6 mx-8">
 			<Experience />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section class="h-5/6">
+		<section id="skills" class="h-5/6">
 			<Skills />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />
-		<section class="h-5/6 w-full">
+		<section id="contact" class="h-5/6 w-full">
 			<Contact />
 		</section>
 	</div>

@@ -16,7 +16,7 @@
 			company: 'Lime Technologies',
 			subject: 'Software Engineer',
 			description:
-				'Worked as a consultant with focus on building/ maintaining customer applications. <br> Python, Flask, SQL, Docker, StencilJs, Github Actions, Jenkins'
+				'Consultant with focus on building/ maintaining customer applications. <br> TypeScript, Python, Flask, SQL, Docker, Github Actions, Jenkins'
 		}
 	];
 

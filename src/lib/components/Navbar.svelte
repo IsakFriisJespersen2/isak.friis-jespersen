@@ -2,17 +2,22 @@
 	import { Menu } from 'lucide-svelte';
 	import LinkedIn from '$lib/logos/LinkedIn.svelte';
 	import Github from '$lib/logos/Github.svelte';
+  import {scrollIntoView } from '$lib/utils/scrollTo'
+
+
 
 	let isOpen = false;
+
 </script>
 
 <navbar class="fixed w-full bg-[#18262b] text-md border-b border-black z-10 text-cyan-50">
 	<div class="flex justify-between p-5 w-full">
 		<div class="flex space-x-4">
-			<a href="/" class="hover:text-orange-600">About</a>
-			<a href="/" class="hover:text-orange-600">Projects</a>
-			<a href="/" class="hover:text-orange-600">Skills</a>
-			<a href="/" class="hover:text-orange-600">Contact</a>
+			<a on:click={() => scrollIntoView('#about')} class="hover:text-orange-600">About</a>
+			<a on:click={() => scrollIntoView('#projects')} class="hover:text-orange-600">Projects</a>
+			<a on:click={() => scrollIntoView('#experience')} class="hover:text-orange-600">Experience</a>
+			<a on:click={() => scrollIntoView('#skills')} class="hover:text-orange-600">Skills</a>
+			<a on:click={() => scrollIntoView('#contact')} class="hover:text-orange-600">Contact</a>
 		</div>
 		<div class="space-y-2 tablet:space-y-0 flex flex-col items-end">
 			<button on:click={() => (isOpen = !isOpen)}>

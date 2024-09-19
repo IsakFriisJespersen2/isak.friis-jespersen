@@ -1,16 +1,19 @@
-FROM node:18-alpine3.14 AS builder
+FROM node:20-alpine AS builder
+
+RUN corepack enable && corepack prepare yarn && yarn -v
 
 WORKDIR /app
+COPY package.json yarn.lock .yarnrc.yml ./
+RUN yarn install --immutable
 
 COPY package*.json .
 
-RUN yarn install
-
 COPY . .
 
+RUN corepack enable
 RUN yarn build
 
-FROM node:18-alpine
+FROM node:20-alpine
 WORKDIR /app
 
 COPY --from=builder /app/build build/

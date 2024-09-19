@@ -8,7 +8,7 @@
 </script>
 
 <navbar class="fixed w-full bg-[#18262b] text-md border-b border-black z-10 text-cyan-50">
-	<div class="flex justify-between p-5 w-full">
+	<div class="flex justify-between p-5 w-full text-xl desktop:text-md">
 		<div class="flex space-x-4">
 			<button type="button" on:click={() => scrollIntoView('#about')} class="hover:text-orange-600">About</button>
 			<button type="button" on:click={() => scrollIntoView('#projects')} class="hover:text-orange-600">Projects</button>
@@ -20,7 +20,10 @@
 		</div>
 		<div class="space-y-2 tablet:space-y-0 flex flex-col items-end">
 			<button on:click={() => (isOpen = !isOpen)}>
-				<Menu role="button" class="tablet:hidden border rounded-md w-8 h-8 p-1" />
+				<Menu
+					role="button"
+					class="tablet:hidden border rounded-md w-16 h-16 tablet:w-12 tablet:h-12 desktop:h-8 desktop:w-8 p-1"
+				/>
 			</button>
 			<div
 				class="flex flex-col tablet:flex-row space-y-2 tablet:space-x-4 tablet:space-y-0 tablet:data-[hidden=false]:flex data-[hidden=false]:hidden"
@@ -36,5 +39,5 @@
 				>
 			</div>
 		</div>
-	</div></navbar
->
+	</div>
+</navbar>

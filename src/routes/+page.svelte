@@ -7,9 +7,9 @@
 	import Contact from '$lib/components/Contact/index.svelte';
 </script>
 
-<main class="bg-[#111d21] text-cyan-50 w-[calc(100dvw)]">
+<main class="bg-[#111d21] text-cyan-50 w-full">
 	<div class="w-full flex flex-col items-center gap-y-24">
-		<section id="author" class="h-5/6 mt-16">
+		<section id="author" class="h-5/6 mt-36">
 			<Author />
 		</section>
 		<div class="w-full border-b-4 border-dashed border-[#18262b]" />

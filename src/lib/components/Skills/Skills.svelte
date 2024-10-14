@@ -19,7 +19,7 @@
 
 <div class="flex flex-col items-center">
 	<SectionTitle title="Skills" />
-	<div class="flex flex-wrap justify-around tablet:gap-32 gap-12 max-w-7xl tablet:p-36 p-12 rounded-full">
+	<div class="flex flex-wrap justify-around tablet:gap-24 gap-4 max-w-7xl tablet:p-36 p-12 rounded-full">
 		<Wrapper>
 			<Tailwind />
 		</Wrapper>
@@ -44,9 +44,9 @@
 		<Wrapper>
 			<Kubernetes />
 		</Wrapper>
-		<Wrapper>
-			<Neovim />
-		</Wrapper>
+		<!-- <Wrapper> -->
+		<!-- 	<Neovim /> -->
+		<!-- </Wrapper> -->
 		<Wrapper>
 			<NextJs />
 		</Wrapper>

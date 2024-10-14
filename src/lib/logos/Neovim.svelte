@@ -1,8 +1,8 @@
 <script lang="ts">
-	export let className: string = '';
+	export let className = '';
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" class={className}
+<svg xmlns="http://www.w3.org/2000/svg"
 	><description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description><defs
 		><linearGradient x1="22.625" y1="-.173" x2="22.625" y2="211.998" id="A" gradientUnits="userSpaceOnUse"
 			><stop stop-color="#16b0ed" stop-opacity=".8" offset="0%" /><stop

@@ -36,6 +36,7 @@ export default {
 			},
 			screens: {
 				mobil: { min: '580px' },
+				tabletsm: { min: '668px' },
 				tablet: { min: '768px' },
 				tabletlg: { min: '840' },
 				laptop: { min: '1024px' },

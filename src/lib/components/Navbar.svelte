@@ -7,22 +7,22 @@
 	let isOpen = false;
 </script>
 
-<navbar class="fixed w-full bg-[#18262b] text-md border-b border-black z-10 text-cyan-50">
-	<div class="flex justify-between p-5 w-full text-xl desktop:text-md">
-		<div class="flex space-x-4">
+<navbar class="fixed w-full bg-[#18262b] border-b border-black z-10 text-cyan-50">
+	<div class="flex justify-between p-5 w-full desktop:text-md">
+		<div class="flex items-start space-x-3 tablet:space-x-4">
 			<button type="button" on:click={() => scrollIntoView('#about')} class="hover:text-orange-600">About</button>
 			<button type="button" on:click={() => scrollIntoView('#projects')} class="hover:text-orange-600">Projects</button>
 			<button type="button" on:click={() => scrollIntoView('#experience')} class="hover:text-orange-600"
 				>Experience</button
 			>
 			<button type="button" on:click={() => scrollIntoView('#skills')} class="hover:text-orange-600">Skills</button>
-			<button type="button" on:click={() => scrollIntoView('#contact')} class="hover:text-orange-600">Contact</button>
+			<!-- <button type="button" on:click={() => scrollIntoView('#contact')} class="hover:text-orange-600">Contact</button> -->
 		</div>
 		<div class="space-y-2 tablet:space-y-0 flex flex-col items-end">
 			<button on:click={() => (isOpen = !isOpen)}>
 				<Menu
 					role="button"
-					class="tablet:hidden border rounded-md w-16 h-16 tablet:w-12 tablet:h-12 desktop:h-8 desktop:w-8 p-1"
+					class="tablet:hidden border rounded-md w-6 h-6 tablet:w-12 tablet:h-12 desktop:h-8 desktop:w-8 p-1"
 				/>
 			</button>
 			<div
